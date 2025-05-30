@@ -34,7 +34,6 @@ def menu_cliente():
         else:
             print("Opção Inválida, Tente Novamente")
 
-
 def listar_clientes(conexao):
     cursor = conexao.cursor()
     # Execução do select no banco de dados
